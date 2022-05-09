@@ -1,0 +1,18 @@
+{
+  "name": "kafka",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "kafkajs": "^1.12.0"
+  },
+  "devDependencies": {
+    "kafka-node": "^5.0.0"
+  },
+  "scripts": {
+    "consumer": "node ./src/consumer.js",
+    "producer": "node ./src/producer.js"
+  },
+  "keywords": [],
+  "author": "kunkka0822",
+  "license": "ISC"
+}
